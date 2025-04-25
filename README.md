@@ -1,81 +1,112 @@
-# Store Rating App
+# 🏪 Store Rating App
 
-## 🌟 Welcome to Store Rating App 🌟
+## 🌟 Welcome to Store Rating App
 
-The **Store Rating App** is a sleek and intuitive platform designed for users to discover, rate, and review stores! Whether you're a customer or a store owner, this app makes it easy to rate your shopping experiences and manage your store's reputation with ease.
-
----
-
-## 🚀 Key Features
-
-- **User Authentication**: Create an account or log in with ease using JWT authentication.
-- **Store Listings**: Browse and search for stores, filtered by category, to find exactly what you're looking for.
-- **Rate & Review Stores**: Rate stores from 1 to 5 stars and add comments to share your thoughts.
-- **Dashboard for Store Owners**: Access a personalized dashboard to manage your store's ratings and reviews.
-- **Responsive Design**: Fully optimized for desktop, tablet, and mobile devices for seamless browsing on any screen size.
+The **Store Rating App** is a full-stack platform that empowers users to discover and rate local stores while giving store owners insight into customer satisfaction. It's fast, intuitive, and visually appealing.
 
 ---
 
-## 📸 Screenshots
+## 🚀 Features at a Glance
 
-### 1. **Home Page**
+✨ **User Roles**
+- 👤 Normal User: Can browse and rate stores  
+- 🏪 Store Owner: View ratings, respond to feedback  
+- 🛠️ Admin: Manage users, stores, and reviews  
 
-Discover stores, browse categories, and get started on your rating journey!
+📥 **Authentication**
+- JWT-secured login & registration system  
+- Role-based dashboard routing  
 
-![Home Page](images/home-page.png)
+⭐ **Rating & Reviews**
+- Leave a rating from 1–5 stars with an optional comment  
+- View all ratings submitted for your store  
 
-### 2. **Login Page**
+📊 **Store Dashboard**
+- Store owners can view real-time feedback from customers  
+- Review analytics and boost your store's presence  
 
-Secure and simple login page for a seamless user experience.
-
-![Login Page](images/login-page.png)
-
-### 3. **Dashboard**
-
-Store owners can view and manage ratings and comments in their personalized dashboard.
-
-![Dashboard](images/dashboard.png)
-
----
-
-## ⚙️ Built With
-
-- **Frontend**: React.js, CSS, JavaScript
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **Authentication**: JWT (JSON Web Tokens) for secure user login and session management
-- **Deployment**: Hosted on [Heroku](https://heroku.com) / [Netlify](https://netlify.com)
+🧭 **Navigation & UI**
+- Responsive design  
+- Smooth navigation using React Router  
+- Clean, modern dashboard UI  
 
 ---
 
-## 🔥 Highlights
+## 🖼️ Screenshots
 
-- **Seamless User Experience**: From registering, logging in, and leaving reviews, every step is designed for simplicity and ease of use.
-- **Store Owner Control**: Store owners get full control over their ratings and reviews through a powerful dashboard.
-- **Mobile-First Design**: Optimized for mobile devices so you can rate stores on the go.
+### 🏠 Home Page
 
----
+The landing page showcasing top-rated stores.
 
-## 🌱 Contribute to the Project
-
-We encourage open-source contributions! If you want to improve this project, feel free to fork the repository, make changes, and submit a pull request.
+![Home Page](./images/home-page.png)
 
 ---
 
-## 📬 Get in Touch
+### 🔐 Login Page
 
-Got any questions or feedback? Reach out to us!
+Simple and secure authentication using JWT.
 
-- **Email**: [your.email@example.com](mailto:your.email@example.com)
-- **GitHub**: [Your GitHub Profile](https://github.com/yourusername)
-
----
-
-## 📑 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+![Login Page](./images/login-page.png)
 
 ---
 
-**Thank you for checking out Store Rating App! We hope you enjoy using it! 🚀**
+### 📋 Store Owner Dashboard
 
+Shows a list of user ratings and reviews.
+
+![Dashboard](./images/dashboard.png)
+
+---
+
+## 🧪 API Testing with Postman
+
+All endpoints are tested using Postman to ensure functionality and response validity.
+
+![Postman Testing](./images/postman-test.png)
+
+---
+
+## 🛢️ PostgreSQL Database
+
+The app uses **PostgreSQL** to store all user, store, and review data. Here's a peek into how your data looks in the database:
+
+![PostgreSQL View](./images/postgres-data.png)
+
+---
+
+## 🧰 Tech Stack
+
+**Frontend**  
+- React.js  
+- React Router  
+- CSS  
+
+**Backend**  
+- Node.js  
+- Express.js  
+- PostgreSQL (via Sequelize ORM)  
+
+**Authentication**  
+- JWT (JSON Web Tokens)  
+
+**API Testing**  
+- Postman  
+
+---
+
+## 🧠 Highlights
+
+- ✅ Clean code & modular structure  
+- ✅ Modern UI with responsive layout  
+- ✅ RESTful APIs with error handling  
+- ✅ Full-stack integration with database  
+
+---
+
+## 🔗 Follow the Project
+
+Want to explore or contribute? Star the repo ⭐ and fork it 🚀
+
+---
+
+### 🙌 Made with by [Aumkar jagtap]
