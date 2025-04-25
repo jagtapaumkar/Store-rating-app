@@ -1,0 +1,53 @@
+/* components/Dashboard.css */
+
+.dashboard-container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  }
+  
+  .dashboard-heading {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: #1f2937;
+  }
+  
+  .dashboard-empty {
+    font-style: italic;
+    color: #6b7280;
+  }
+  
+  .ratings-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .rating-card {
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #f9fafb;
+  }
+  
+  .rating-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+  }
+  
+  .user-name {
+    color: #111827;
+  }
+  
+  .rating-value {
+    color: #f59e0b;
+  }
+  
+  .user-comment {
+    color: #374151;
+  }
+  
